@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: "Copperplate", Fantasy;
+    background: rgb(63,251,203);
+    background: radial-gradient(circle, rgba(63,251,203,1) 0%, rgba(147,171,153,1) 100%); 
+    text-align: center;
+    color: #0e67db;
+  }
+  .header{
+      text-align: center;
+      margin: auto;
+  }
+  .header__img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .cuadrado {
+    border-radius: 25px;
+  background:  #dbe4de;
+  padding: 30px;
+  width: 50%;
+  height: 50%; 
+  border: 3px solid green;
+  padding: 20px;
+  margin: auto ;
+  margin-bottom: 10px;
+  font-size: 50px;
+  }
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Copperplate', Fantasy;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: green;
+  }
